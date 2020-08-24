@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/packages-information-1.0/index.html
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
